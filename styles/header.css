@@ -1,0 +1,61 @@
+header{
+  position: fixed;
+  height: 65px;
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 100px;
+  border: 1px solid rgb(204, 204, 204);
+  background: blur;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+}
+
+.header-div{
+  height: 25px;
+  font-size: 14px;
+  background-color: rgba(199, 189, 189, 0.3);
+  color: white;
+  border-radius: 5px;
+  padding: 2.5px 30px 2.5px 10px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.header-div:hover{
+  background-color: rgba(199, 189, 189, 0.6);
+  transition: background-color 0.2s;
+}
+
+.header-div:active{
+  opacity: 0.7;
+  background-color: rgba(143, 142, 142, 0.8);
+  transition: background-color 0.15s;
+  transition: color 0.3s;
+}
+
+.header-name{
+  align-self: left;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-right: 150px;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.logo-name{
+  padding-bottom: 17px;
+}
